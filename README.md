@@ -8,8 +8,10 @@ This project is a student management web application that offers functionalities
 + PostgreSQL (pg) <br>
 
 
-**Setting Up the Project**
+**Setting Up the Project** 
 
-git clone <repository_url.git>
+git clone https://github.com/yeyevgine/StudentManagementApp.git
+
+**Setting Up the Backend**
 
 
