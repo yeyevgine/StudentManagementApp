@@ -6,3 +6,5 @@ This project is a student management web application that offers functionalities
 + Node.js <br>
 + Express.js <br>
 + PostgreSQL (pg) <br>
+
+
