@@ -52,6 +52,29 @@ npm install <br>
 + **GET /students/search?fullName=<full_name>** - Search for students by their full name. <br>
 
 
+**Frontend Pages** <br>
+
++ Create Student Profile <br>
+File: **create_student.html** <br>
+Features a form to create a new student profile. <br>
+    + Validations:
+      + First Name: Accepts alphabetic characters only. Ensures only letters are entered.
+      + Last Name: Accepts alphabetic characters only. Ensures only letters are entered.
+      + Username: Accepts alphanumeric characters, hyphens, periods, and underscores. Ensures usernames contain only specific characters.
+
++ Student List <br>
+File: **student_list.html** <br>
+Displays a list of students with options to search, edit, and delete student profiles. <br>
+
++ Edit Student Details <br>
+File: **edit_student.html** <br>
+Allows editing and updating existing student details. <br>
+
+**Usage** <br>
++ Access the frontend by opening the respective HTML files in your web browser (create_student.html, student_list.html, edit_student.html). <br>
++ Interact with the frontend forms and functionalities to create, view, edit, or delete student profiles.<br>
++ Ensure the backend server is running (http://localhost:4000) to enable communication between the frontend and backend.<br>
+
 
 
 
