@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Student</title>
+    <link rel="stylesheet" href="edit_student_style.css">
+</head>
+
+<body>
+    <h1>Edit Student Details</h1>
+
+    <form id="editStudentForm">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" required><br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" required><br><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="text" id="password" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" required><br><br>
+
+        <div id="messageContainer"></div>
+
+        <button type="submit" id="saveChangesButton" class="submitButtons">Save Changes</button>
+        <button type="button" id="backToStudentListButton" class="submitButtons">Back to Student List</button>
+    </form>
+
+    <script src="edit_student.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Create New Student Profile</title>
+  <link rel="stylesheet" href="create_student_style.css">
+</head>
+
+<body>
+  <h1>Create New Student Profile</h1>
+  <form id="newStudentForm">
+    <input type="text" id="firstName" placeholder="First Name" required><br>
+    <input type="text" id="lastName" placeholder="Last Name" required><br>
+    <input type="text" id="username" placeholder="Username" required><br>
+    <input type="password" id="password" placeholder="Password" required><br>
+    <input type="email" id="email" placeholder="Email" required><br>
+    
+    <div id="messageContainer"></div>
+
+    <button type="submit" class="submitButtons">Create Profile</button>
+    <button id="gotoStudentList" class="submitButtons">Student List</button>
+  </form>
+
+  <script src="create_student.js"></script>
+</body>
+
+</html>
